@@ -1,0 +1,24 @@
+:global(#root) {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  overflow: hidden;
+}
+
+pre{
+  margin: 10px 10px 10px 0;
+  background: #eee;
+  padding: 10px;
+  code{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+code{
+  background: #eee;
+  padding: 2px 3px;
+  margin: 0 3px;
+}
